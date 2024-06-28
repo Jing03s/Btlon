@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/dt"
+    tools:context=".AddCourseActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:text="Thêm khóa học mới"
+        android:textColor="#D80303"
+        android:textColorLink="#503D3D"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <!--Edit text to enter course name-->
+    <EditText
+        android:id="@+id/idEdtCourseName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Tên khóa học" />
+
+    <!--edit text to enter course start-->
+    <EditText
+        android:id="@+id/idEdtCourseStart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Thời gian bắt đầu" />
+
+    <!--edit text to display course end-->
+    <EditText
+        android:id="@+id/idEdtCourseEnd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Thời gian kết thúc" />
+
+    <!--edit text for course description-->
+    <EditText
+        android:id="@+id/idEdtCourseDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Mô tả" />
+
+    <!--button for adding new course-->
+    <Button
+        android:id="@+id/idBtnAddCourse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Thêm khóa học"
+        android:textAllCaps="false" />
+
+    <!--new button for opening our course list activity-->
+    <Button
+        android:id="@+id/idBtnReadCourse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Xem tất cả khóa học"
+        android:textAllCaps="false" />
+
+</LinearLayout>

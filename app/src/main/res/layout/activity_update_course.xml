@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".UpdateCourseActivity"
+    android:background="@drawable/dt">
+
+    <!--Edit text to enter course name-->
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="16dp"
+
+        android:gravity="center"
+        android:text="Cập nhật khóa học"
+        android:textColor="#D80303"
+        android:textColorLink="#503D3D"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/idEdtCourseName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Tên khóa học" />
+
+    <!--edit text to enter course start-->
+    <EditText
+        android:id="@+id/idEdtCourseStart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Thời gian bắt đầu" />
+
+    <!--edit text to display course end-->
+    <EditText
+        android:id="@+id/idEdtCourseEnd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Thời gian kết thúc" />
+
+    <!--edit text for course description-->
+    <EditText
+        android:id="@+id/idEdtCourseDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Mô tả" />
+
+    <!--button for updating our course-->
+    <Button
+        android:id="@+id/idBtnUpdateCourse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Cập nhật khóa học"
+        android:textAllCaps="false" />
+
+    <!--button for deleting our course-->
+    <Button
+        android:id="@+id/idBtnDelete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Xóa khóa học"
+        android:textAllCaps="false" />
+
+    <!--button for starting course-->
+    <Button
+        android:id="@+id/idBtnStartCourse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Bắt đầu khóa học"
+        android:textAllCaps="false" />
+
+</LinearLayout>
+

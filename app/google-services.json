@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "755563736134",
+    "project_id": "btlon-ce2ee",
+    "storage_bucket": "btlon-ce2ee.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:755563736134:android:3af2e64f026dbf2f182e47",
+        "android_client_info": {
+          "package_name": "tlu.edu.vn.ht63.btlon"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDoXBYIpSCgTfuLPd7NHZxSuRH3d9OH-kI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
